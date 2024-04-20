@@ -20,7 +20,6 @@ public partial class vLogin : ContentPage
 		{
 			if (user[i] == usuario && pass[i] == contra)
 			{
-
                 Navigation.PushAsync(new MainPage(usuario));
                 encontrado = 1;
 				break;
