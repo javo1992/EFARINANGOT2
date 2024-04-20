@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EFARINANGOT2.Vistas.vLogin"
+             Title="">
+    <VerticalStackLayout Margin="10">
+        <Label 
+            Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Label Text="Usuario"></Label>
+        <Entry x:Name="txtUsuario" Margin="0,0,0,10"></Entry>
+        
+        <Label Text="Contraseña"></Label>
+        <Entry x:Name="txtContra" IsPassword="True" Margin="0,0,0,30"></Entry>
+       
+        <Button Margin="2" x:Name="btn_ingresar" Clicked="btn_ingreso_Clicked"  Text="Ingresar" ></Button>
+    </VerticalStackLayout>
+</ContentPage>

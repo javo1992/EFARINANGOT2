@@ -4,9 +4,10 @@
     {
         int count = 0;
 
-        public MainPage()
+        public MainPage( string usuario)
         {
             InitializeComponent();
+            DisplayAlert("Alerta", "Bienvenido " + usuario, "cerrar");
         }
 
         private void btn_calcular_Clicked(object sender, EventArgs e)
